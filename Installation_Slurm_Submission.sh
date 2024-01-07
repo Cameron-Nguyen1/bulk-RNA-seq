@@ -5,7 +5,6 @@
 #SBATCH -n 2
 #SBATCH -t 1-
 module load r/4.2.2
-#Rscript Kali_Dependencies.R #Comment this out if you've already ran the Dependency installation script
 base=$(pwd)
 export R_LIBS=/example/path/R_LIBS:$R_LIBS 
 
